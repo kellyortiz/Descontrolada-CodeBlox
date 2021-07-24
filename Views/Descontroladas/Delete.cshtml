@@ -1,0 +1,72 @@
+﻿@model codeBlox.Models.Descontrolada
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Excluir Produto</h2>
+
+<h3>Tem certeza que deseja excluir?</h3>
+<div>
+    <h4>Descontrolada</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.preco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tipoProduto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipoProduto)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Excluir" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar", "Index")
+        </div>
+    }
+</div>
