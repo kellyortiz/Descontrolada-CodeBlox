@@ -23,7 +23,7 @@ Depois é só dar IISExpress :grinning:
 
 ## Tecnologia utilizada
 
-- ASP.NET Core com .NET 5.
+- ASP.NET MVC 4
 - EF Core
 - Visual Studio 2019
 - Linguagem: C#
