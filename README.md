@@ -12,9 +12,6 @@ Página para o cadastro dos produtos, que deve apresentar os campos: nome, preç
 *A varejista comercializa dois tipos de produto:
 - Orgânico, e;
 - Não orgânico.
-Página para exibição dos produtos cadastrados, que deverá mostrar apenas 5 itens por página (de uma grid/tabela).
-
-O sistema também deve possuir um menu que permita a navegação entre as duas páginas.
 
 ## Para Acessar
 codeBlox -> View -> descontroladas -> index
